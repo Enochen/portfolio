@@ -1,3 +1,3 @@
 import { writable } from 'svelte/store';
 
-export const hidingDesc = writable(false);
+export const hidingDesc = writable(true);
