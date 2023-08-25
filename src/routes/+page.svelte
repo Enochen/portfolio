@@ -13,7 +13,7 @@
 
 	const popupHover: PopupSettings = {
 		event: 'hover',
-		target: 'popupHover',
+		target: 'soontm',
 		placement: 'top',
 	};
 
@@ -86,7 +86,7 @@
 	</div>
 </div>
 
-<div class="card variant-ghost-secondary px-3 py-2" data-popup="popupHover">
+<div class="card variant-ghost-secondary px-3 py-2" data-popup="soontm">
 	<p>Coming soon!</p>
-	<!-- <div class="arrow variant-filled-secondary" /> -->
+	<div class="arrow variant-ghost-secondary" />
 </div>
