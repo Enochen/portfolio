@@ -54,15 +54,15 @@
 				<br />
 				<p>
 					In my free time, you can find me juggling, tinkering with keyboards, or just thinking
-					about life.
+					about life. Mostly just that last one.
 				</p>
 				<br />
-				<p>Check out some of my stuff here.</p>
+				<p>Check back later for more content coming soon! 👀</p>
 			</div>
 		</div>
 	</div>
 	<div
-		class="mx-24 flex w-full max-w-3xl flex-row flex-wrap items-center justify-around pb-12 md:pb-24">
+		class="mx-24 flex w-full max-w-3xl flex-row flex-wrap items-center justify-evenly pb-12 md:pb-24">
 		<!-- Using svelte:component instead of <ProfileIcon /> for reactivity reasons -->
 		<button type="button" on:click={toggleDesc}>
 			<IconControl label="About">
