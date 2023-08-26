@@ -19,7 +19,7 @@
 </script>
 
 <div
-	class="mx-24 flex w-full max-w-3xl flex-row flex-wrap items-center justify-evenly pb-6 md:pb-16">
+	class="mx-24 flex w-full max-w-3xl flex-row flex-wrap items-center justify-center md:justify-evenly pb-6 md:pb-16">
 	<!-- Using svelte:component instead of <ProfileIcon /> for reactivity reasons -->
 	<button type="button" on:click={() => hidingDesc.update((v) => !v)}>
 		<IconControl label="About">
