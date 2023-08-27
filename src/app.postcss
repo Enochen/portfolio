@@ -8,3 +8,9 @@ body {
 	--theme-font-family-heading: system-ui;
 	--theme-font-color-base: 50 50 50;
 }
+
+.hover-active-colors {
+	@apply hover:text-secondary-700 hover:transition-colors 
+				active:text-secondary-600 hover:dark:text-secondary-400
+				active:dark:text-secondary-500;
+}
