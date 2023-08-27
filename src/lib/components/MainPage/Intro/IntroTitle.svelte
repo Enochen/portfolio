@@ -3,8 +3,7 @@
 </script>
 
 <button
-	class="flex cursor-pointer flex-col items-center gap-2
-				 hover:text-secondary-500-400-token active:text-secondary-400-500-token"
+	class="hover-active-colors flex cursor-pointer flex-col items-center gap-2"
 	on:click={() => hidingDesc.update((v) => !v)}>
 	<h1
 		class="{$hidingDesc

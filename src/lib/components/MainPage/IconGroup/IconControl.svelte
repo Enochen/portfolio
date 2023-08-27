@@ -3,9 +3,7 @@
 </script>
 
 <div
-	class="mx-8 my-3 flex cursor-pointer flex-col items-center gap-2
-				 hover:text-secondary-500-400-token active:text-secondary-400-500-token
-				 md:m-0">
+	class="hover-active-colors mx-8 my-3 flex cursor-pointer flex-col items-center gap-2 md:m-0">
 	<div class="text-xl transition-font-size md:text-5xl">
 		<slot name="icon" />
 	</div>
