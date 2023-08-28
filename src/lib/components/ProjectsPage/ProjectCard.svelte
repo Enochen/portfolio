@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Img from '@zerodevx/svelte-img';
 	type LinkData = {
 		href: string;
 		label: string;
@@ -6,19 +7,22 @@
 
 	export let title: string;
 	export let imageHref: string = '';
-	export let imageSrc: string = '';
+	export let imageSrc = {};
 	export let imageAlt: string;
 	export let tags: string[] = [];
 	export let links: LinkData[] = [];
 </script>
 
-<div class="flex flex-col transition-colors hover:card sm:flex-row-reverse">
+<div class="flex flex-col transition-colors hover:card md:flex-row-reverse">
 	{#if imageSrc}
 		<a
-			class="flex object-cover py-0.5 md:w-2/3"
+			class="flex max-h-64 md:relative md:max-h-none md:w-2/3"
 			href={imageHref || null}
 			target="_blank">
-			<img src={imageSrc} alt={imageAlt} class="object-cover" />
+			<Img
+				src={imageSrc}
+				alt={imageAlt}
+				class="bottom-0 top-0 h-full w-full object-cover md:absolute" />
 		</a>
 	{/if}
 	<div class="flex w-full flex-col items-start gap-3 px-2 py-6 md:px-6">
@@ -38,6 +42,7 @@
 				{#each links as { href, label }}
 					<a
 						{href}
+						target="_blank"
 						class="btn-sm variant-outline-primary hover:variant-filled-primary">
 						{label}
 					</a>

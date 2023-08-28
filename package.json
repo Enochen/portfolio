@@ -37,6 +37,7 @@
 		"@iconify-json/mdi": "^1.1.54",
 		"@sveltejs/adapter-netlify": "1.0.0-next.88",
 		"@types/gtag.js": "^0.0.13",
+		"@zerodevx/svelte-img": "^2.0.3",
 		"prettier-plugin-tailwindcss": "^0.5.3",
 		"unplugin-icons": "^0.16.5"
 	}
