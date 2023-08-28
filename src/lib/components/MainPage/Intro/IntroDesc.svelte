@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { scrollToAnchor } from '$lib/misc/util';
 	import { hidingDesc } from '$lib/stores';
 </script>
 
@@ -16,6 +17,12 @@
 			joy to others!
 		</p>
 		<br />
-		<p>Check back later for more content coming soon! 👀</p>
+		<p>
+			Check out some of my projects <a
+				class="anchor"
+				href="#projects"
+				on:click|preventDefault={scrollToAnchor}>here</a
+			>.
+		</p>
 	</div>
 </div>
