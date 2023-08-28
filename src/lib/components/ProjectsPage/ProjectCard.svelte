@@ -43,7 +43,9 @@
 					<a
 						{href}
 						target="_blank"
-						class="btn-sm variant-outline-primary hover:variant-filled-primary">
+						class="btn-sm variant-outline-primary
+									 hover:variant-filled-primary
+									 active:variant-filled-surface">
 						{label}
 					</a>
 				{/each}
