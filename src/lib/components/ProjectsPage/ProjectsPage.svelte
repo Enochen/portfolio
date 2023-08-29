@@ -59,7 +59,7 @@
 				An aesthetic-focused 3D rhythm game with automatic beatmap generation
 				powered by an ensemble of beat detection algorithms. I made this as a
 				final project while studying abroad in Copenhagen. Warning: the WebGL
-				build is quite fragile and may not work depending on the day.
+				build is quite fragile.
 			</div>
 		</ProjectCard>
 		<ProjectCard
@@ -162,7 +162,7 @@
 				Pick a disease, pick a starting country, and buy upgrades to infect the
 				whole world before a vaccine is found! Game inspired by Plague Inc. and
 				the early pandemic. This was an exploration into the practical
-				applications of functional OCaml.
+				applications of functional OCaml as part of a CS 3110 final project.
 			</div>
 		</ProjectCard>
 		<ProjectCard
