@@ -30,7 +30,4 @@
 	<a href="https://www.linkedin.com/in/noche/" target="_blank">
 		<IconControl label="LinkedIn"><LinkedInIcon slot="icon" /></IconControl>
 	</a>
-	<a href="/enoch_chen_resume.pdf" target="_blank">
-		<IconControl label="Resume"><FileIcon slot="icon" /></IconControl>
-	</a>
 </div>
