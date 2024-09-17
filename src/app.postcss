@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind variants;
 
 html,
 body {
@@ -14,8 +15,9 @@ body {
 
 @layer components {
 	.anchor {
-		@apply text-secondary-700-200-token;
+		@apply text-secondary-800-100-token;
 		@apply saturate-200;
+		@apply transition-[fade,font-size] ease-out;
 		text-decoration-line: none;
 	}
 }

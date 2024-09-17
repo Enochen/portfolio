@@ -4,20 +4,17 @@
 	import FlaskIcon from '~icons/mdi/flask';
 	import GitHubIcon from '~icons/mdi/github';
 	import LinkedInIcon from '~icons/mdi/linkedin';
-	import FileIcon from '~icons/mdi/file-account';
-	import { hidingDesc } from '$lib/stores';
+	import { showDesc } from '$lib/stores';
 	import IconControl from './IconControl.svelte';
 	import { scrollToAnchor } from '$lib/misc/util';
 
-	$: ProfileIcon = $hidingDesc ? AccountOutlineIcon : AccountFilledIcon;
+	$: ProfileIcon = $showDesc ? AccountFilledIcon : AccountOutlineIcon;
 </script>
 
 <div
 	class="mx-24 flex w-full max-w-3xl flex-row flex-wrap items-center justify-center pb-6 md:justify-evenly md:pb-16">
 	<!-- Using svelte:component instead of <ProfileIcon /> for reactivity reasons -->
-	<button
-		type="button"
-		on:click={() => hidingDesc.update((v) => !v)}>
+	<button type="button" on:click={() => showDesc.update((v) => !v)}>
 		<IconControl label="About">
 			<svelte:component this={ProfileIcon} slot="icon" />
 		</IconControl></button>

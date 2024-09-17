@@ -95,13 +95,17 @@
 					href: 'https://github.com/cornell-dti/cu-apts',
 					label: 'GitHub',
 				},
+				{
+					href: 'https://cuapts.org/',
+					label: 'Visit',
+				},
 			]}>
 			<div slot="description">
 				Finding information on student housing at Cornell is unnecessarily
 				painful. CU Apts was created to empower the student body by aggregating
 				knowledge and reviews for both Cornell and off-campus housing options. A
 				<a class="anchor" href="https://cornelldti.org/" target="_blank"
-					>Cornell DTI</a> project. Launching soon!
+					>Cornell DTI</a> project.
 			</div>
 		</ProjectCard>
 		<ProjectCard
@@ -118,8 +122,8 @@
 			]}>
 			<div slot="description">
 				A resource for campus organization discovery for Cornell. We validated
-				an MVP on "competitive" business clubs and eventually rolled out to the
-				rest of the. A <a
+				an MVP on "competitive" business clubs and eventually rolled out for all
+				clubs on campus. Unfortunately, the site has since been sunsetted. A <a
 					class="anchor"
 					href="https://cornelldti.org/"
 					target="_blank">Cornell DTI</a> project.
@@ -230,8 +234,7 @@
 				user-provided data. Developed as a hackathon project at <a
 					class="anchor"
 					href="https://teenhacksli.com/"
-					target="_blank">TeenHacksLI</a
-				>.
+					target="_blank">TeenHacksLI</a> in 2019.
 			</div>
 		</ProjectCard>
 	</div>

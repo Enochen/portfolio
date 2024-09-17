@@ -6,7 +6,7 @@
 	};
 
 	export let title: string;
-	export let imageHref: string = '';
+	export let imageHref = '';
 	export let imageSrc = {};
 	export let imageAlt: string;
 	export let tags: string[] = [];
@@ -30,7 +30,7 @@
 		{#if tags.length}
 			<div class="flex flex-row flex-wrap gap-3">
 				{#each tags as tag}
-					<span class="badge variant-glass-success">{tag}</span>
+					<span class="variant-glass-success badge">{tag}</span>
 				{/each}
 			</div>
 		{/if}
@@ -43,7 +43,7 @@
 					<a
 						{href}
 						target="_blank"
-						class="btn-sm variant-outline-primary
+						class="variant-outline-primary btn-sm
 									 hover:variant-filled-primary
 									 active:variant-filled-surface">
 						{label}

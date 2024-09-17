@@ -4,11 +4,16 @@
 	import Analytics from '$lib/misc/Analytics.svelte';
 	import Seo from '$lib/misc/SEO.svelte';
 	import { LightSwitch } from '@skeletonlabs/skeleton';
+	import type { PageData } from './$types';
+	import { splash } from '$lib/stores';
+
+	export let data: PageData;
+	$: splash.set(data.splash);
 </script>
 
 <Seo
 	title="Enoch Chen"
-	description="Hey! I'm Enoch, a CS grad student at Cornell University. I do cool things sometimes." />
+	description="Hey! I'm Enoch, a software engineer based in NYC. I do cool things sometimes." />
 <Analytics />
 
 <MainPage />
